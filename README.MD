@@ -1,2 +1,2 @@
-# Módulo Splash 
+# Arquitetura Modular
 

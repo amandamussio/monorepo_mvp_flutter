@@ -5,9 +5,11 @@ abstract class Failure implements Exception {
 }
 
 class DioFailure extends Failure implements DioError {
-  final String? msg;
+
+  final String? message;
   late final int? statusCode;
-  DioFailure(DioError err, {this.msg}) {
+
+  DioFailure(DioError err, {this.message}) {
     statusCode = err.response?.statusCode ?? 400;
     type = err.type;
     error = err.error;

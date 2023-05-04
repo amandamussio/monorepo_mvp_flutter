@@ -12,6 +12,8 @@ dependencies:
     sdk: flutter
   commons_dependencies:
     path: '../commons_dependencies'
+  splash_module:
+    path: '../splash_module'
 
 dev_dependencies:
   flutter_test:

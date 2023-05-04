@@ -1,8 +1,9 @@
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
+import 'package:flutter/widgets.dart';
 
 class SplashPage extends StatefulWidget {
-  const SplashPage({super.key});
+
+  final String title;
+  const SplashPage({Key? key, this.title = 'SplashPage'}) : super(key: key);
 
   @override
   State<SplashPage> createState() => _SplashPageState();

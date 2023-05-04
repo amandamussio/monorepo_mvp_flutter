@@ -48,6 +48,20 @@ packages:
       relative: true
     source: path
     version: "0.0.1"
+  commons_shared:
+    dependency: transitive
+    description:
+      path: "../commons_shared"
+      relative: true
+    source: path
+    version: "0.0.1"
+  core:
+    dependency: "direct main"
+    description:
+      path: "../core"
+      relative: true
+    source: path
+    version: "0.0.1"
   cupertino_icons:
     dependency: "direct main"
     description:
@@ -56,6 +70,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.5"
+  dartz:
+    dependency: transitive
+    description:
+      name: dartz
+      sha256: e6acf34ad2e31b1eb00948692468c30ab48ac8250e0f0df661e29f12dd252168
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.10.1"
   dio:
     dependency: transitive
     description:
@@ -191,6 +213,13 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.9.1"
+  splash_module:
+    dependency: transitive
+    description:
+      path: "../splash_module"
+      relative: true
+    source: path
+    version: "0.0.1"
   stack_trace:
     dependency: transitive
     description:
