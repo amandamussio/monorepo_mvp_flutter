@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1006470390694",
+    "project_id": "zavii-testes",
+    "storage_bucket": "zavii-testes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006470390694:android:06cb1a8184a8a5b0ac2567",
+        "android_client_info": {
+          "package_name": "com.example.base_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1006470390694-v4atj7f2o6v1fj2ga2jdd96m7rnjhmnr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFuNyEyja4DXLPdjUplc0UXVHJgyv2EHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1006470390694-v4atj7f2o6v1fj2ga2jdd96m7rnjhmnr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1006470390694-14ec3ieucn84k25spgd1mq6kma6o3anf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.flutter.flutter.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
