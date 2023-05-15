@@ -1,11 +1,9 @@
 import 'package:bloc/bloc.dart';
-import 'package:commons_shared/shared/utils/form_utils/email.dart';
-import 'package:commons_shared/shared/utils/form_utils/full_name.dart';
-import 'package:commons_shared/shared/utils/form_utils/password.dart';
-import 'package:commons_shared/shared/utils/form_utils/confirmed_password.dart';
 import 'package:meta/meta.dart';
 import 'package:formz/formz.dart';
 import 'package:sign_up_module/src/sign_up.dart';
+import 'package:commons_shared/src/commons_shared.dart';
+
 
 part 'sign_up_state.dart';
 
